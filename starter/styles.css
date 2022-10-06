@@ -2,6 +2,11 @@
 * {
     margin: 0px;
     /* border: 1px solid black; */
+    box-sizing: border-box;
+    padding: 0;
+}
+body {
+    font-family: 'Inter', sans-serif;
 }
 
 /* ==== Common Fix ends here==== */
@@ -16,6 +21,8 @@
     width: 50%;
     height: 100%;
     background: var(--gray-color);
+    padding: 20px;
+
 }
 .firstsection-rightdiv {
     width: 50%;
@@ -25,6 +32,29 @@
     background-position: bottom left;
 }
 /* ===== First section starts here===== */
+.logotext {
+    margin-bottom: 20px;
+}
+.heading {
+    margin-bottom: 20px;
+}
+span {
+    color: var(--main-color);
+}
+.line {
+    height: 16px;
+    width: 224px;
+    margin-top: 25px;
+    background-color: var(--main-color);
+}
+.Link-holder {
+    
+    color: #fff;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
 
 
 
