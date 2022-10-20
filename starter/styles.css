@@ -25,6 +25,7 @@ img {
     height: 100%;
     background: var(--gray-color);
     padding: 20px;
+    overflow: hidden;
 
 }
 .firstsection-rightdiv {
@@ -147,7 +148,9 @@ a {
 footer {
     max-width: 1500px;
 }
-
+html.sr .load-hidden {
+    visibility: hidden;
+}
 
 
 
